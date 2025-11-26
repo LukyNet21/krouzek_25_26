@@ -10,7 +10,7 @@ void *clogUpCore(void *arg) {
   }
 }
 int main() {
-  int thread_count = 16;
+  int thread_count = 2;
   for (int i = 0; i < thread_count; i++) {
     pthread_t *thread = malloc(sizeof(pthread_t));
     pthread_create(thread, NULL, clogUpCore, NULL);
