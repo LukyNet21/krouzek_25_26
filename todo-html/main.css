@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  padding: 20px;
+  background-color: aqua;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 400px;
+
+  padding: 30px;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+li {
+  margin: 5px 0;
+}
